@@ -1,0 +1,192 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+	-moz-box-sizing: border-box; /* Firexfox */
+	-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+	box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	font-size: 12px;
+	line-height: 1.4;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+header {
+	font-weight: 800;
+	font-size: 24px;
+	padding-left: 10%;
+	color: white;
+}
+
+.intro {
+	width: 100%;
+  	margin: auto;
+  	height: 500px;
+	background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+	background-size: cover;
+}
+
+.benefits {
+	width: 100%;
+  	margin: auto;
+  	height: 200px;
+	background-color: #f0efef;
+}
+
+.testimonials {
+	width: 100%;
+  	margin: auto;
+  	height: 140px;
+	font-weight: 300;
+	font-size: 18px;
+	color: white;
+	font-style: italic;
+	text-align: center;
+	background: url(../images/testimonial_bg.jpg) no-repeat center rgb(134,141,157);
+	background-size: cover;
+}
+
+
+#testimonials {
+padding-top: 40px;
+}
+
+.signup {
+	width: 100%;
+  	margin: auto;
+  	height: 70px;
+	background-color: #f9e42e;
+}
+
+footer {
+	width: 100%;
+  	margin: auto;
+  	height: 180px;
+	text-align: center;
+	background-color: #121212;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+#name {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#second {
+	background-color: #033048;
+	color: white;
+	text-align: center;
+	font-weight: 800;
+	border-color: #033048;
+}
+
+
+p {
+
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 24px;
+	text-align: center;
+	color: white;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 20px;
+	margin-left: 10%;
+	padding-top: 30px;
+}
+
+button {
+	font-weight: 800;
+	font-size: 14px;
+	border-radius: 5px;
+	margin-top: 2rem;
+	color: black;
+	background-color: #f9e42e;
+	border-color: #f9e42e;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.cta {
+	text-align: center;
+}
+
+ul {
+	margin-left: 20%;
+	font-weight: 300;
+	font-size: 13px;
+	padding-top: 15px;
+}
+
+
+#benefits {
+	padding-left: 10%;
+	font-weight: 300;
+	font-size: 13px;
+	padding-top: 15px;
+}
+
+#footer {
+	color: #f9e42e;
+	font-weight: 800;
+	font-size: 24px;
+	margin: 0rem;
+	padding-top: 30px;
+}
+
+#copyright {
+	font-size: 9px;
+	font-weight: 600;
+	color: white;
+	padding-top: 20px;
+}
+
+#icons {
+	padding-top: 20px;
+}
