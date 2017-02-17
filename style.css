@@ -60,7 +60,7 @@ header {
 	width: 100%;
   	margin: auto;
   	height: 500px;
-	background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+	background: url(header_bg.jpg) no-repeat center top rgb(134,141,157);
 	background-size: cover;
 }
 
