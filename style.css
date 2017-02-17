@@ -80,7 +80,7 @@ header {
 	color: white;
 	font-style: italic;
 	text-align: center;
-	background: url(../images/testimonial_bg.jpg) no-repeat center rgb(134,141,157);
+	background: url(testimonial_bg.jpg) no-repeat center rgb(134,141,157);
 	background-size: cover;
 }
 
